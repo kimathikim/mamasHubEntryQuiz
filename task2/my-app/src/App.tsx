@@ -55,7 +55,7 @@ const App: React.FC = () => {
     setUserAge(age);
 
     if (age < 22 || age > 50) {
-      setError("Age must be between 22 and 50.");
+      setError("Age must be between 18 and 50.");
       return;
     }
 
